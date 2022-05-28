@@ -10,7 +10,7 @@ public class JohnMovement : MonoBehaviour
 
     public float speed;
     public Joystick joy;
-
+    private float fuerza =3;
 
     private bool piso;
 
@@ -49,9 +49,16 @@ public class JohnMovement : MonoBehaviour
        
         
     }
-        
 
-  
+
+    public void brincar()
+    {
+        Vector2 mover = new Vector2(joy.Horizontal, joy.Vertical);
+        control = mover.normalized * speed;
+        mover.AddForce(mover.up * fuerza, ForceMode2D.Impulse);
+    }
+
+
 
 }
 

@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Juego.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
-    path: Assets/Scenes/ganar.unity
-    guid: 2518bb57cd55eaf4cb1dd557034e1a67
-  - enabled: 1
     path: Assets/Scenes/perder.unity
     guid: 33517b9184ebf63488f070f40c4574b6
+  - enabled: 1
+    path: Assets/Scenes/ganar.unity
+    guid: 2518bb57cd55eaf4cb1dd557034e1a67
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 61a38a93ed964a8429eedcaa790ad463, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 5b1a6808cd96b60499f527c1305dc93c, type: 2}
